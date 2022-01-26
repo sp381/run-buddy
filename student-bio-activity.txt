@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html Lang= "en">
+
+    <head>
+
+        <title>Student Bio</title>
+    </head>
+    <body>
+        <header>
+        <h1>Student Bio</h1>
+        </header>
+
+        <section>
+        <h2>Sarah Powell</h2>
+        <img src=
+        <p>Hi everyone! I am a military spouse and mother of two small children. This lifestyle brings about a lot of change with new environments, new challenges and constant growth. I am excited to dive into the world of web developement. It's not my background but I am up for the challenge! In my free time I mostly hang out with my husband and children. I love to travel, find the best local spots and drink lots of coffee!
+        </p>
+        </section>
+
+        <section>
+            <h2>Contact Info</h2>
+            <ul>
+                <li><strong>Email:</strong><a href="#">sarah.powell381@gmail.com</a></li>
+                <li><strong>Github:</strong><a href="#">sp381</a></li>
+                <li><strong>Portfolio:</strong><a href="#">coming soon</a></li>
+            </ul>
+        </section
+        
+
+    </body>
+
+</html>
