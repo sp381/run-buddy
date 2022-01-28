@@ -6,14 +6,12 @@
 
 body {
     /* more on this crazy alphanumerical value in a minute! */
-    /* I'm a CSS comment! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
     /* apply styles to <header> */
     header {
-        font-weight: bold;
         padding: 20px 35px;
         background-color: #39a6b2;
     }
@@ -24,7 +22,6 @@ body {
         color: #fce138;
         margin: 0;
         display: inline;
-
     }
 
     header a {
@@ -60,7 +57,6 @@ body {
         margin: 0;
     }
 
-
 footer div {
     float: right;
     line-height: 1.5;
@@ -79,11 +75,10 @@ section {
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
-    background-size: cover;
-    background-position: center;
+    background-size: cover; 
+    background-position: center; 
     position: relative;
 }
-
 /* Hero Style End */
 
 .hero-form {
@@ -106,7 +101,7 @@ section {
     margin: 5px 0 15px 0;
 }
 
-.form input {
+.form-input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -132,70 +127,17 @@ section {
     text-align: center;
 }
 
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-}
-
-.intro h2 {
-    /* add this alongside your other declarations */
-    display: inline-block;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
-}
-
-.intro p {
-    /* add this alongside your other declarations */
     margin: 0 auto;
 }
 
 .steps {
     text-align: center;
-    background: #fce138;
-}
-
-.steps h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #39a6b2;
-}
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 100px 0;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-
-/* remove this entire CSS rule */
-.intro h2 {
-}
-
-/* and this one */
-.steps h2 {
+    background-color: #fce138;
 }
 
 .steps div {
@@ -220,4 +162,21 @@ section {
 
 .steps span {
     font-size: 38px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 100px 0;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
 }
